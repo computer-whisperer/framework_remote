@@ -177,7 +177,8 @@ def run():
 
         except TableKeyNotDefinedException as e:
             print(e)
-        time.sleep(1)
+            time.sleep(2)
+        time.sleep(.1)
 
 threading.Thread(target=run).start()
 root.mainloop()
